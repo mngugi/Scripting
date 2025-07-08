@@ -28,7 +28,7 @@ let items = [1, 2, 3]; // Array
 let person = { name: "Alice", age: 28 }; // Object  
 // here person stores an object with properties name and age        
 // Functions        
-
+console.log("\n--------\n") 
 function greet() {
     console.log("Hello, World!");
     
@@ -38,4 +38,13 @@ function greet() {
 //process.exit();
 greet()
 
-console.log("\n--------\n")
+console.log("\n--------\n") 
+
+// a second function that reads num1
+let num1 = 67;
+function readNum(n) {
+
+    console.log(n);
+    
+}
+readNum(num1);
