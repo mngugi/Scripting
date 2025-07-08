@@ -25,5 +25,11 @@ let isActive = true; // Boolean
 // here isActive stores a boolean value true
 let items = [1, 2, 3]; // Array
 // here items stores an array with three numbers
-let person = { name: "Alice", age: 28 }; // Object
-// here person stores an object with properties name and age
+let person = { name: "Alice", age: 28 }; // Object  
+// here person stores an object with properties name and age        
+// Functions        
+
+function greet() {
+    console.log("Hello, World!");
+}
+// This function prints "Hello, World!" to the console  
