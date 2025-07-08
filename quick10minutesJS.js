@@ -33,6 +33,9 @@ function greet() {
     console.log("Hello, World!");
     
 }
+
 // This function prints "Hello, World!" to the console      
 //process.exit();
 greet()
+
+console.log("\n--------\n")
