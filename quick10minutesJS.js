@@ -11,3 +11,19 @@ let name = "John"; // String
 // here name stores a string "John"
 const PI = 3.14; // Constant
 // here PI is a constant with value 3.14
+// Change the Value of Variables
+
+num = 20; // Change value of num
+// now num stores a number 20
+age = 30; // Change value of age
+// now age stores a number 30
+name = "Jane"; // Change value of name
+// now name stores a string "Jane"
+// PI cannot be changed as it is a constant
+// Data Types   
+let isActive = true; // Boolean
+// here isActive stores a boolean value true
+let items = [1, 2, 3]; // Array
+// here items stores an array with three numbers
+let person = { name: "Alice", age: 28 }; // Object
+// here person stores an object with properties name and age
