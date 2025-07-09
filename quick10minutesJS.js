@@ -200,5 +200,31 @@ console.log(!(x == 3));  // false
 console.log(!(x < 2));  // true
 console.log("\n--------\n")
 
+// numeric string used with + gives string type
+let resultK;
 
+// convert number to string
+resultK = "3" + 2; 
+console.log(resultK, "-", typeof(resultK));
+
+resultK = "3" + true; 
+console.log(resultK, "-", typeof(resultK));
+
+resultK = "3" + null; 
+console.log(resultK, "-", typeof(resultK));
+
+console.log("\n--------\n")
+let resultJ;
+
+// convert string to number
+result = Number("5");
+console.log(resultJ, "-", typeof(resultJ));
+
+// convert boolean to string
+resultJ = String(true);
+console.log(resultJ, "-", typeof(resultJ));
+
+// convert number to boolean
+resultJ = Boolean(0);
+console.log(resultJ, "-", typeof(resultJ));
 console.log("\n--------\n")
