@@ -58,3 +58,24 @@ function displayMessage()   {
 //  This function displays a message
 displayMessage();
 console.log("\n--------\n") 
+
+let fruits = ["apple", "banana", "cherry"];
+let country = "USA";
+let result = `I like ${fruits[0]} from ${country}.`;
+
+function displayAll(){
+    console.log(fruits);
+    console.log(country);
+    console.log(result);
+}
+// This function displays the fruits, country, and result
+displayAll();
+console.log("\n--------\n") 
+// integer value
+let integer_number = -3;
+console.log(integer_number);
+
+// floating-point value
+let float_number = 3.15;
+console.log(float_number);
+console.log("\n--------\n") 
