@@ -81,3 +81,29 @@ console.log(float_number);
 console.log("\n--------\n") 
 // boolean value
 let isTrue = true;
+// two symbols with the same description
+let value1 = Symbol("programiz");
+let value2 = Symbol("programiz");
+
+console.log(value1 === value2);  // false
+console.log("\n--------\n")
+let student = {
+    name: "John",
+    age: 20,
+    isActive: true,
+    subjects: ["Math", "Science", "English"],
+    address: {
+        city: "New York",
+        zip: "10001"
+    }
+};
+
+function studentInfor() {
+        
+        console.log(`Name: ${this.name}, Age: ${this.age}`);
+        console.log(`Address: ${this.address.city}, ${this.address.zip}`);          
+    } 
+    // This function displays student information
+    student.studentInfor = studentInfor;
+    student.studentInfor();  
+console.log("\n--------\n")
