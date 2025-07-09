@@ -185,3 +185,20 @@ console.log("Greater than or equal to: 3 >= 3 is", 3 >= 3);
 // less than or equal to operator
 console.log("Less than or equal to: 2 <= 2 is", 2 <= 2);
 console.log("\n--------\n")
+let x = 3;
+
+// logical AND
+console.log((x < 5) && (x > 0));  // true
+console.log((x < 5) && (x > 6));  // false
+
+// logical OR
+console.log((x > 2) || (x > 5));  // true
+console.log((x > 3) || (x < 0));  // false
+
+// logical NOT
+console.log(!(x == 3));  // false
+console.log(!(x < 2));  // true
+console.log("\n--------\n")
+
+
+console.log("\n--------\n")
