@@ -48,3 +48,13 @@ function readNum(n) {
     
 }
 readNum(num1);
+
+console.log("\n--------\n") 
+
+let latestMessage = "Global Warmning is real!  Please take action!";    
+function displayMessage()   {
+    console.log(latestMessage);
+}
+//  This function displays a message
+displayMessage();
+console.log("\n--------\n") 
