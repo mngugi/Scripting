@@ -91,7 +91,7 @@ let student = {
     name: "John",
     age: 20,
     isActive: true,
-    subjects: ["Math", "Science", "English"],
+    subjects: ["Math", "Science", "English", "Social Studies"],
     address: {
         city: "New York",
         zip: "10001"
