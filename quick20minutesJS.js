@@ -33,4 +33,15 @@ for (let i = 0; i < nestedSports.length; i++) {
         console.log("Sport:", nestedSports[i][j]);
     }
 }
+console.log("--------------------------Example---------------------------");
+
+const fruityArray = ["apple", "banana", "cherry"];
+const beverageArray = ["water", "juice", "soda"];
+
+for (let i = 0; i < fruityArray.length; i++) {
+    for (let j = 0; j < beverageArray.length; j++) {
+        console.log("Combination:", fruityArray[i], "with", beverageArray[j]);
+    }
+}
+
 console.log("--------------------------------------------------------");
