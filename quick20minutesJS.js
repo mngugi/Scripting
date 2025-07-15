@@ -44,4 +44,30 @@ for (let i = 0; i < fruityArray.length; i++) {
     }
 }
 
+console.log("----------------------sort example----------------------------");
+
+// mixed array
+const mixedArray = ["soda", "apple", "Juice", "banana", "Tea", "cherry"];
+// sort the array
+const beverageListArray = ["soda", "Juice", "Tea"];
+const fruitListArray = ["apple", "banana", "cherry"];
+
+// initialize empty arrays
+const sortedBeverages = [];
+const sortedFruits = [];
+
+for (let i = 0; i < mixedArray.length; i++) {
+    if (beverageListArray.includes(mixedArray[i])) {
+        sortedBeverages.push(mixedArray[i]);
+    } else if (fruitListArray.includes(mixedArray[i])) {
+        sortedFruits.push(mixedArray[i]);
+    }
+}
+
+// sort the arrays alphabetically
+sortedBeverages.sort();
+sortedFruits.sort();
+
+console.log("Sorted Beverages:", sortedBeverages);
+console.log("Sorted Fruits:", sortedFruits);
 console.log("--------------------------------------------------------");
