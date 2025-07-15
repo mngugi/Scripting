@@ -16,4 +16,10 @@ const newValues = [true, undefined, null, 0, NaN];
 for (let i = 0; i < newValues.length; i++) {
     console.log("Value:", newValues[i], 'is of type:', typeof newValues[i]);
 } 
-console.log("--------------------------------------------------");
+console.log("------------------------Example--------------------------");
+
+const fruits = ["apple", "banana", "cherry"];
+for (let j= 0 ; j < fruits.length; j++) {
+    console.log("Fruit:", fruits[j], 'is of type:', typeof fruits[j]);
+}
+
