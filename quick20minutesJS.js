@@ -23,4 +23,4 @@ for (let j= 0 ; j < fruits.length; j++) {
     console.log("Fruit:", fruits[j], 'is of type:', typeof fruits[j]);
 }
 
-console.log("--------------------------------------------------");
+console.log("--------------------------------------------------------");
