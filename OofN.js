@@ -7,7 +7,7 @@ An example of an O(n) algorithm is printing numbers from 0 to n-1,
 as shown here: */
 
 function exampleLinear(n) {
-    for (let i = 0; i < n; i++) {
+    for (var i = 0; i < n; i++) {
         console.log("This is a linear time complexity example.", i);
     }
 }
@@ -16,8 +16,8 @@ console.log("--------------------------------------------------");
 /** Similarly, O(n2) is quadratic time, and O(n3) is cubic time. 
  * Examples  of these complexities are shown here: */
 function exampleQuadratic(n) {
-    for (let i = 0; i < n; i++) {
-        for (let j = 0; j < n; j++) {
+    for (var i = 0; i < n; i++) {
+        for (var j = 0; j < n; j++) {
             console.log("This is a quadratic time complexity example.", i, j);
         }
     }
