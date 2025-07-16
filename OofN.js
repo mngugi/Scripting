@@ -34,4 +34,5 @@ function exampleQuadratic(n) {
     }
 }
 exampleQuadratic(3); // Example with n = 3
+
 console.log("--------------------------------------------------");  
