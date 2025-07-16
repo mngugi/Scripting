@@ -82,4 +82,7 @@ const sportsArray = ["football", "basketball", "tennis", "cricket", "hockey",
 const contactSports = ["football", "basketball", "rugby", "hockey"];
 const nonContactSports = ["tennis", "cricket", "baseball", "golf", "volleyball", "swimming"];
 
-// initialize empty arrays
+// initialize empty arrays  
+const contactSportsArray = [];
+const nonContactSportsArray = [];
+
