@@ -79,3 +79,7 @@ console.log("----------------------Example----------------------------");
 const sportsArray = ["football", "basketball", "tennis", "cricket", "hockey",
 "baseball", "golf", "rugby", "volleyball", "swimming"];
 
+const contactSports = ["football", "basketball", "rugby", "hockey"];
+const nonContactSports = ["tennis", "cricket", "baseball", "golf", "volleyball", "swimming"];
+
+// initialize empty arrays
