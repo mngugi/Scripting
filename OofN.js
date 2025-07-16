@@ -15,3 +15,11 @@ console.log("--------------------------------------------------");
 
 /** Similarly, O(n2) is quadratic time, and O(n3) is cubic time. 
  * Examples  of these complexities are shown here: */
+function exampleQuadratic(n) {
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j < n; j++) {
+            console.log("This is a quadratic time complexity example.", i, j);
+        }
+    }
+}
+console.log("--------------------------------------------------");  
