@@ -71,3 +71,7 @@ sortedFruits.sort();
 console.log("Sorted Beverages:", sortedBeverages);
 console.log("Sorted Fruits:", sortedFruits);
 console.log("--------------------------------------------------------");
+
+// exercises 
+
+console.log("----------------------Example----------------------------");
