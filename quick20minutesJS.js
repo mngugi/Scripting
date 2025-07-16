@@ -86,3 +86,17 @@ const nonContactSports = ["tennis", "cricket", "baseball", "golf", "volleyball",
 const contactSportsArray = [];
 const nonContactSportsArray = [];
 
+for (let i = 0; i < sportsArray.length; i++) {
+    if (contactSports.includes(sportsArray[i])) {
+        contactSportsArray.push(sportsArray[i]);
+    } else if (nonContactSports.includes(sportsArray[i])) {
+        nonContactSportsArray.push(sportsArray[i]);
+    }
+}   
+// sort the arrays alphabetically
+contactSportsArray.sort();
+nonContactSportsArray.sort();   
+
+console.log("Contact Sports:", contactSportsArray);
+console.log("Non-Contact Sports:", nonContactSportsArray);
+console.log("--------------------------------------------------------");
