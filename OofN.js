@@ -36,3 +36,15 @@ function exampleQuadratic(n) {
 exampleQuadratic(3); // Example with n = 3
 
 console.log("--------------------------------------------------");  
+
+function exampleCubic(n) {
+    for (var i = 0; i < n; i++) {
+        for (var j = 0; j < n; j++) {
+            for (var k = 0; k < n; k++) {
+                console.log("This is a cubic time complexity example.", i, j, k);
+            }
+        }
+    }
+}
+exampleCubic(2); // Example with n = 2  
+console.log("--------------------------------------------------");
