@@ -48,3 +48,17 @@ function exampleCubic(n) {
 }
 exampleCubic(2); // Example with n = 2  
 console.log("--------------------------------------------------");
+
+/* O(log n) is logarithmic time, which is faster than linear time. 
+ * An example of an O(log n) algorithm is binary search, where the input size is halved at each step. 
+ * Here is a simple example of logarithmic time complexity: */
+
+function exampleLogarithmic(n) {
+    let i = 1;
+    while (i < n) {
+        console.log("This is a logarithmic time complexity example.", i);
+        i *= 2; // Doubling i each time
+    }
+}
+exampleLogarithmic(16); // Example with n = 16
+console.log("--------------------------------------------------");
