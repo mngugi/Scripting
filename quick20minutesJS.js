@@ -75,3 +75,7 @@ console.log("--------------------------------------------------------");
 // exercises 
 
 console.log("----------------------Example----------------------------");
+
+const sportsArray = ["football", "basketball", "tennis", "cricket", "hockey",
+"baseball", "golf", "rugby", "volleyball", "swimming"];
+
