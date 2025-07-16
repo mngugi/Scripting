@@ -1,5 +1,5 @@
 
-/*O(1) does not change with respect to input space. Hence, O(1) is referred
+/* O(1) does not change with respect to input space. Hence, O(1) is referred
 to as being constant time. An example of an O(1) algorithm is accessing an
 item in the array by its index. O(n) is linear time and applies to  
 algorithms that must do n operations in the worst-case scenario. 
