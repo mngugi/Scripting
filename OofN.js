@@ -62,3 +62,13 @@ function exampleLogarithmic(n) {
 }
 exampleLogarithmic(16); // Example with n = 16
 console.log("--------------------------------------------------");
+
+// Rules of Big O Notation
+console.log("------------------------Example-------------------------");
+console.log("Big O Notation Rules:");
+function printTwice(n) {
+    for (let i = 0; i < 2 * n; i++) {
+        console.log(i);
+    }
+}
+printTwice(5); // Example with n = 5
