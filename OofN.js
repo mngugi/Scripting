@@ -11,7 +11,12 @@ function exampleLinear(n) {
         console.log("This is a linear time complexity example.", i);
     }
 }
-console.log("--------------------------------------------------");   
+console.log("--------------------Example------------------------------"); 
+
+// O(1): Constant Time Example
+let array = [10, 20, 30, 40];
+console.log("O(1) - Constant time example:", array[2]); // Access by index (constant time)
+
 
 /** Similarly, O(n2) is quadratic time, and O(n3) is cubic time. 
  * Examples  of these complexities are shown here: */
