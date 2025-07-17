@@ -72,3 +72,10 @@ function printTwice(n) {
     }
 }
 printTwice(5); // Example with n = 5
+/**Big-O focuses on the dominant term as 
+𝑛
+→
+∞
+n→∞, and constants do not affect which term grows the fastest. Hence, constants are "eliminated" from the analysis.
+
+ */
