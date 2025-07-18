@@ -47,7 +47,7 @@ for (let i = 0; i < fruityArray.length; i++) {
 console.log("----------------------sort example----------------------------");
 
 // mixed array
-const mixedArray = ["soda", "apple", "Juice", "banana", "Tea", "cherry"];
+const mixedArray = ["soda", "apple", "Juice", "banana", "Tea","carrot", "broccoli", "spinach", "cherry"];
 // sort the array
 const beverageListArray = ["soda", "Juice", "Tea"];
 const fruitListArray = ["apple", "banana", "cherry"];
