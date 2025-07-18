@@ -56,6 +56,7 @@ const vegetableListArray = ["carrot", "broccoli", "spinach"];
 // initialize empty arrays
 const sortedBeverages = [];
 const sortedFruits = [];
+const sortedVegetables = [];
 
 for (let i = 0; i < mixedArray.length; i++) {
     if (beverageListArray.includes(mixedArray[i])) {
@@ -63,14 +64,19 @@ for (let i = 0; i < mixedArray.length; i++) {
     } else if (fruitListArray.includes(mixedArray[i])) {
         sortedFruits.push(mixedArray[i]);
     }
+    else if (vegetableListArray.includes(mixedArray[i])) {
+        sortedVegetables.push(mixedArray[i]);
+    }
 }
 
 // sort the arrays alphabetically
 sortedBeverages.sort();
 sortedFruits.sort();
+sortedVegetables.sort();
 
 console.log("Sorted Beverages:", sortedBeverages);
 console.log("Sorted Fruits:", sortedFruits);
+console.log("Sorted Vegetables:", sortedVegetables);
 console.log("--------------------------------------------------------");
 
 // exercises 
@@ -100,4 +106,5 @@ nonContactSportsArray.sort();
 
 console.log("Contact Sports:", contactSportsArray);
 console.log("Non-Contact Sports:", nonContactSportsArray);
+
 console.log("--------------------------------------------------------");
