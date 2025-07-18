@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f0f8ff;
+}
+
+.character div {
+  margin: 10px auto;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+/* Animation classes */
+.blink {
+  animation: blink 0.5s steps(1, start) 2;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.smile {
+  animation: smile 0.5s ease-in-out;
+}
+
+@keyframes smile {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+.shake {
+  animation: shake 0.6s;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  75% { transform: translateX(10px); }
+}
+
+.wave {
+  animation: wave 1s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(30deg); }
+}
+
+.kick {
+  animation: kick 0.6s ease-in-out;
+}
+
+@keyframes kick {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(-45deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.tip {
+  animation: tip 0.5s ease-in-out;
+}
+
+@keyframes tip {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(15deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.tap {
+  animation: tap 0.5s ease;
+}
+
+@keyframes tap {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
