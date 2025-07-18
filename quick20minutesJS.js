@@ -51,6 +51,7 @@ const mixedArray = ["soda", "apple", "Juice", "banana", "Tea", "cherry"];
 // sort the array
 const beverageListArray = ["soda", "Juice", "Tea"];
 const fruitListArray = ["apple", "banana", "cherry"];
+const vegetableListArray = ["carrot", "broccoli", "spinach"];
 
 // initialize empty arrays
 const sortedBeverages = [];
