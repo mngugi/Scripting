@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+  padding: 20px;
+}
+
+.array {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 250px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.bar {
+  width: 40px;
+  background-color: #2196f3;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: all 0.5s ease;
+  font-size: 14px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
