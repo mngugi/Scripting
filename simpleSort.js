@@ -7,13 +7,16 @@ nums.sort(function (a,b) {
 });
 console.log(nums);
 
-consolelog("------------------------------------------------------");
+console.log("------------------------------------------------------");
 
 function wordSort(){
     let words= ["Vim, Emacs", "VSCode", "Sublime Text", "Atom"];
     words.sort(function (a, b) {
         return a.localeCompare(b);
     });
+    console.log(words);
+    return words;   
    
-};
- console.log(words);
+}
+ 
+wordSort();
