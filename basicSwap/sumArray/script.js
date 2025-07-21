@@ -1,8 +1,8 @@
-function arraySum(Array, n){
-    n = 0;
-    for (let i =0; i < n ; i ++){
-        n = n + Array[i];
+function arraySum(arr){
+    let sum = 0;
+    for (let i =0; i < arraySum.length ; i++){
+        sum += arr[i];
     }
-    return n;   
+    return sum;   
 }
-console.log(arraySum(5)); // Output: 15
+console.log(arraySum([1, 2, 3, 4, 5])); // Output: 15
