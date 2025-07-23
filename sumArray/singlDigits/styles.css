@@ -1,66 +1,45 @@
-/* Reset & Base */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0f8ff;
-  height: 100vh;
+  font-family: sans-serif;
+  background: #eef6ff;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
-/* Container */
 .container {
-  background-color: white;
-  padding: 30px 40px;
+  background: white;
+  padding: 20px 30px;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  width: 90%;
-  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  width: 300px;
 }
 
-/* Heading */
-.container h2 {
-  margin-bottom: 20px;
-  color: #333;
-}
-
-/* Input */
-input[type="text"] {
+input {
+  padding: 10px;
   width: 100%;
-  padding: 12px;
+  margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 16px;
-  margin-bottom: 20px;
 }
 
-/* Button */
 button {
-  background-color: #4caf50;
-  color: white;
+  padding: 10px 20px;
+  background: #007bff;
   border: none;
-  padding: 12px 24px;
+  color: white;
   font-size: 16px;
   border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #45a049;
+  background: #0056b3;
 }
 
-/* Result */
 #result {
   margin-top: 20px;
-  font-size: 18px;
   font-weight: bold;
   color: #333;
 }

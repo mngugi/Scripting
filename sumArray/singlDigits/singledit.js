@@ -2,23 +2,18 @@ function smallestDigit() {
   const input = document.getElementById("arrayInput").value;
   const resultDiv = document.getElementById("result");
 
-  // Convert input to a set of digits
-  const digits = new Set(
-    input
-      .split(",")
-      .map(d => d.trim())
-      .filter(d => /^[0-9]$/.test(d)) // ensure only single digits
-  );
+  // Convert input into an array of digits
+  const digits = input
+    .split(",")
+    .map(d => d.trim())
+    .filter(d => /^[0-9]$/.test(d)); // keep only single-digit valid numbers
 
-  // Check from 0 to 9
-  for (let i = 0; i <= 9; i++) {
-    const digit = i.toString();
-    if (digits.has(digit)) {
-      resultDiv.textContent = `Smallest digit: ${digit}`;
-      return;
-    }
+  if (digits.length === 0) {
+    resultDiv.textContent = "Please enter valid single digits (0-9).";
+    return;
   }
 
-  // If no valid digit found
-  resultDiv.textContent = "No valid digits entered.";
+  // Find smallest digit
+  const smallest = digits.reduce((min, d) => Math.min(min, parseInt(d)), 9);
+  resultDiv.textContent = `Smallest digit: ${smallest}`;
 }

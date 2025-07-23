@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smallest Digit Finder</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #eef6ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: white;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 300px;
+    }
+
+    input {
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: #007bff;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    #result {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Smallest Digit Finder</h2>
+    <input type="text" id="arrayInput" placeholder="e.g. 2,3,1,9" />
+    <button onclick="smallestDigit()">Find Smallest Digit</button>
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function smallestDigit() {
+      const input = document.getElementById("arrayInput").value;
+      const resultDiv = document.getElementById("result");
+
+      const digits = input
+        .split(",")
+        .map(d => d.trim())
+        .filter(d => /^[0-9]$/.test(d)); // only allow single-digit numbers
+
+      if (digits.length === 0) {
+        resultDiv.textContent = "Please enter valid digits (0–9).";
+        return;
+      }
+
+      const smallest = Math.min(...digits.map(Number));
+      resultDiv.textContent = `Smallest digit: ${smallest}`;
+    }
+  </script>
+</body>
+</html>
