@@ -11,8 +11,8 @@ function draw() {
 
   // Eyes
   fill(0);
-  ellipse(170, 180, 20, 20); // Left eye
-  ellipse(230, 180, 20, 20); // Right eye
+  ellipse(170, 180,40,40); // Left eye
+  ellipse(230, 180, 40,40); // Right eye
 
   // Mouth
   noFill();
