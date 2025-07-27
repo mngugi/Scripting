@@ -7,7 +7,7 @@ function draw() {
 
   // Head
   fill("#472405ff");
-  ellipse(200, 200, 210, 230);
+  ellipse(200, 200, 210, 210);
 
   // Eyes
   fill(0);
