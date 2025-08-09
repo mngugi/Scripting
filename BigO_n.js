@@ -20,7 +20,7 @@ function exampleLinear(n) {
         console.log("This is a linear time complexity example.", i);
     }
 }
-exampleQuadratic(5); // Example with n = 5
+exampleQuadratic(4); // Example with n = 5
 
 
 console.log("--------------------------------------------------"); 
